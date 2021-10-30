@@ -1,0 +1,74 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    background: #ecfffd;
+}
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: #006064;
+    transition: left 0.4s ease;
+}
+.sidebar.show {
+    left: 0px;
+}
+.btn {
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    background: #00363a;
+    cursor: pointer;
+    transition: left 0.4s ease;
+}
+.btn span {
+    color: white;
+    font-size: 30px;
+    line-height: 38px;
+}
+.btn.click span:before{
+    content: '\f00d';
+}
+.btn.click {
+    left: 260px;
+}
+.sidebar .text {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #00363a;
+}
+nav ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li {
+    line-height: 60px;
+    border-bottom: 1px solid #00363a;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+nav ul li a:hover {
+    color: #b9f6ca;
+    background: #00363a;
+    border-left-color: #b9f6ca;
+}
