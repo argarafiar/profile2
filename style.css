@@ -116,7 +116,7 @@ nav ul li a:hover {
 .container-profile {
     display: flex;
     width: 1200px;
-    margin: 50px auto;
+    margin: 10px auto;
 }
 .kolom-1-profile {
     flex: 1;
@@ -164,7 +164,7 @@ nav ul li a:hover {
 
 /*=========================Project==========================*/
 .card-body {
-    background: #dbffff;
+    background: #ebfffb;
 }
 .btn-project {
     background: #006064;
@@ -177,3 +177,25 @@ nav ul li a:hover {
     color: #428e92;
 }
 /*=========================Project==========================*/
+
+/*=========================contact==========================*/
+.container-contact {
+    display: flex;
+    width: 1000px;
+    background: #88c399;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.kolom-1-contact {
+    flex: 1;
+    margin: 30px;
+}
+.icon {
+    display: flex;
+    padding: 5px;
+}
+.kolom-2-contact {
+    flex: 1;
+    margin: 30px;
+}
+/*=========================contact==========================*/
