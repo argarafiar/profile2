@@ -33,27 +33,28 @@ body, html {
 .sidebar.show {
     left: 0px;
 }
-.btn {
+.bttn {
     position: fixed;
+    text-align: center;
     top: 15px;
     left: 45px;
-    height: auto;
-    width: auto;
+    width: 50px;
+    padding: 5px;
     border-radius: 10px;
-    background: #00363a;
+    background: #006064;
     cursor: pointer;
     transition: left 0.4s ease;
     z-index: 9999;
 }
-.btn span {
+.bttn span {
     color: white;
     font-size: 30px;
     line-height: 38px;
 }
-.btn.click span:before{
+.bttn.click span:before{
     content: '\f00d';
 }
-.btn.click {
+.bttn.click {
     left: 260px;
 }
 .sidebar .text {
@@ -120,6 +121,7 @@ nav ul li a:hover {
 .kolom-1-profile {
     flex: 1;
     margin-left: 50px;
+    box-sizing: border-box;
     /* background-color: rgb(255, 147, 147); */
 }
 
@@ -144,17 +146,34 @@ nav ul li a:hover {
 /*=========================Portofolio==========================*/
 
 .button-port {
-    font-size: 15px;
+    font-size: 17px;
     background: #006064;
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 120px;
+    margin-right: 20px;
     float: right;
     position: relative;
 }
 .button-port:hover{
     background-color: #00363a;
-    color: #b9f6ca;
+    color: #428e92;
 }
 /*=========================Portofolio==========================*/
+
+/*=========================Project==========================*/
+.card-body {
+    background: #dbffff;
+}
+.btn-project {
+    background: #006064;
+    color: white;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-project:hover {
+    background-color: #00363a;
+    color: #428e92;
+}
+/*=========================Project==========================*/

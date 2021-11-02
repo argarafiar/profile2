@@ -12,23 +12,23 @@
 </head>
 <body>
     <!--================================= navbar ===========================-->
-    <div class="btn">
+    <div class="bttn">
         <span class="fas fa-bars"></span>
     </div>
     <nav class="sidebar ml-auto" style="list-style-type: none;">
-        <div class="text">Menu</div>
+        <div class="text" style="font-family: 'cookie'; font-size: 50px;">- Mira -</div>
         <ul style="list-style-type: none;">
             <li><a href="#home">Home</a></li>
             <li><a href="#profile">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#">Project</a></li>
+            <li><a href="#project">Project</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 <!--================================= navbar ===========================-->
 
 <!--================================= HOME ===========================-->
-<h1 class="text-center" id="home" style="font-family: 'KOTM'; padding-top: 20px;">Welcome to my Website</h1>
+<h1 class="text-center" id="home" style="font-family: 'KOTM'; padding-top: 20px; color: #00363a;">Welcome to my Website</h1>
 
 <div class="container-home shadow-lg">
     <div class="kolom-1-home">
@@ -100,7 +100,7 @@
                   <div class="col-md-6" style="background-color: #88c399;">
                     <p class="text-port fs-5 pt-4"><span style="font-family: 'sofia'; font-size: 30px;">Album Gunung</span><br/>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium officia labore dolorem aspernatur, saepe, nulla commodi quisquam dolore dolorum quidem reprehenderit eaque tempore veritatis aut soluta quasi odit molestias?</p>
-                      <a href="#"><button class="button-port">See more</button></a>
+                      <a href="assets/album1/album1.html"><button class="button-port">See more</button></a>
                     </div>
                 </div>
           </div>
@@ -113,7 +113,7 @@
                 <div class="col-md-6" style="background-color: #88c399;">
                   <p class="text-port fs-5 pt-4"><span style="font-family: 'sofia'; font-size: 30px;">Album Saya</span><br/>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium officia labore dolorem aspernatur, saepe, nulla commodi quisquam dolore dolorum quidem reprehenderit eaque tempore veritatis aut soluta quasi odit molestias?</p>
-                  <a href="#"><button class="button-port">See more</button></a>
+                  <a href="assets/album2/album2.html"><button class="button-port">See more</button></a>
                 </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
                 <div class="col-md-6" style="background-color: #88c399;">
                   <p class="text-port fs-5 pt-4"><span style="font-family: 'sofia'; font-size: 30px;">Album Design</span><br/>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium officia labore dolorem aspernatur, saepe, nulla commodi quisquam dolore dolorum quidem reprehenderit eaque tempore veritatis aut soluta quasi odit molestias?</p>
-                    <a href="#"><button class="button-port">See more</button></a>
+                    <a href="assets/album3/album3.html"><button class="button-port">See more</button></a>
                 </div>
             </div>
           </div>
@@ -142,8 +142,52 @@
       </div>
 </section>
 <!--================================= Portofolio ===========================-->
-
-
+<div style="padding: 100px;"></div>
+<!--================================= Project ===========================-->
+<section>
+    <p id="project" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Project-</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow-lg" style="margin: 1rem;">
+                    <img src="assets/thumb-card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Widarjo</h5>
+                      <p class="card-text">Websites about tourism in my city, namely Sidoarjo Regency, there are various kinds of tours.</p>
+                      <a target="_blank" href="../destinasi_wisata/index.html" class="btn btn-project">Open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg" style="margin: 1rem;">
+                    <img src="assets/thumb-card-null.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Coming Soon</h5>
+                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptates maiores soluta autem?</p>
+                      <a target="_blank" href="#" class="btn btn-project">Open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg" style="margin: 1rem;">
+                    <img src="assets/thumb-card-null.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Coming Soon</h5>
+                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptates maiores soluta autem?</p>
+                      <a target="_blank" href="#" class="btn btn-project">Open</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================================= Project ===========================-->
+<div style="padding: 100px;"></div>
+<!--================================= Contact ===========================-->
+<section>
+    <p id="contact" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Contact-</p>
+</section>
+<!--================================= Contact ===========================-->
 
 
 
@@ -154,7 +198,7 @@
 
 
     <script>
-        $('.btn').click(function(){
+        $('.bttn').click(function(){
             $(this).toggleClass("click");
             $('.sidebar').toggleClass("show");
         });
