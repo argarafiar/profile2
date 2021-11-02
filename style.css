@@ -1,10 +1,25 @@
-
+@font-face {
+    font-family: 'KOTM';
+    src: url(font/KidsOnTheMoon.ttf);
+}
+@font-face {
+    font-family: 'sofia';
+    src: url(font/SOFIAPROSOFTBOLD.ttf);
+}
+@font-face {
+    font-family: 'cookie';
+    src: url(font/Cookie-Regular.ttf);
+}
+@font-face {
+    font-family: 'theblack';
+    src: url(font/TheBlacklist.ttf);
+}
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     user-select: none;
     background: #ecfffd;
+    padding-bottom: 1000px;
 }
 .sidebar {
     position: fixed;
@@ -13,12 +28,13 @@ body, html {
     left: -250px;
     background: #006064;
     transition: left 0.4s ease;
+    z-index: 9999;
 }
 .sidebar.show {
     left: 0px;
 }
 .btn {
-    position: absolute;
+    position: fixed;
     top: 15px;
     left: 45px;
     height: auto;
@@ -27,6 +43,7 @@ body, html {
     background: #00363a;
     cursor: pointer;
     transition: left 0.4s ease;
+    z-index: 9999;
 }
 .btn span {
     color: white;
@@ -72,3 +89,72 @@ nav ul li a:hover {
     background: #00363a;
     border-left-color: #b9f6ca;
 }
+
+
+/*=========================Home==========================*/
+.container-home {
+    display: flex;
+    width: 1200px;
+    margin: 50px auto;
+    background-color: #88c399;
+    padding: 50px;
+}
+.kolom-1-home {
+    flex: 1;
+    order: 2;
+    padding-top: 60px;
+}
+.kolom-2-home {
+    flex: 1;
+    text-align: center;
+    order: 1;
+}
+/*=========================Home==========================*/
+
+/*=========================Profile==========================*/
+.container-profile {
+    display: flex;
+    width: 1200px;
+    margin: 50px auto;
+}
+.kolom-1-profile {
+    flex: 1;
+    margin-left: 50px;
+    /* background-color: rgb(255, 147, 147); */
+}
+
+.kolom-2-profile {
+    flex: 1;
+    background-image: url(assets/foto2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    /* background-color: rgb(124, 185, 255); */
+}
+.text-profile-gambar {
+    text-align: center;
+    font-family: 'sofia';
+    padding-top: 400px;
+    /* padding-right: 100px; */
+    color: #ebfffb; 
+     line-height: 0.7;
+}
+/*=========================Profile==========================*/
+
+/*=========================Portofolio==========================*/
+
+.button-port {
+    font-size: 15px;
+    background: #006064;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 120px;
+    float: right;
+    position: relative;
+}
+.button-port:hover{
+    background-color: #00363a;
+    color: #b9f6ca;
+}
+/*=========================Portofolio==========================*/

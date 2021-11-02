@@ -8,23 +8,149 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Profile Arga</title>
 </head>
 <body>
+    <!--================================= navbar ===========================-->
     <div class="btn">
         <span class="fas fa-bars"></span>
     </div>
     <nav class="sidebar ml-auto" style="list-style-type: none;">
         <div class="text">Menu</div>
         <ul style="list-style-type: none;">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+<!--================================= navbar ===========================-->
+
+<!--================================= HOME ===========================-->
+<h1 class="text-center" id="home" style="font-family: 'KOTM'; padding-top: 20px;">Welcome to my Website</h1>
+
+<div class="container-home shadow-lg">
+    <div class="kolom-1-home">
+        <h1 style="font-size: 100px; font-family: 'Times New Roman', Times, serif; line-height: 0.5;">Hello,
+            <br/>
+            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 50px;">I'am Arga</span>
+            <br/>
+            <span style="font-family: 'cookie'; font-size: 60px;">Student | Designer</span>
+        </h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Libero labore atque officiis sunt repudiandae perspiciatis architecto 
+            aliquid rerum veritatis eligendi dolorem, reiciendis, 
+            consequatur animi laborum nulla vitae perferendis, expedita 
+            aliquam magni tempora ullam esse. Quibusdam animi laborum 
+            voluptatibus perspiciatis voluptatum!
+        </p>
+    </div>
+    <div class="kolom-2-home">
+        <img src="assets/foto-home.jpg" alt="" width="400px" style="border-radius: 50%;">
+    </div>
+</div>
+<!--================================= HOME ===========================-->
+<div style="padding: 70px;"></div>
+<!--================================= PROFILE ===========================-->
+<p id="profile" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Profile-</p>
+<div class="container-profile">
+    <div class="kolom-1-profile">
+        <h1>
+            <div style="text-align: start; font-size: 27px; line-height: 1.5;">
+                NRP <span style="padding-left: 60px;">: 3121600010<br></span>
+                Class <span style="padding-left: 52px;">: D4 Informatic Technology <br></span>
+                Hobby <span style="padding-left: 30px;">: Music and Design <br></span>
+                E-mail <span style="padding-left: 35px;">: argarafiar@gmail.com <br></span>
+                Phone <span style="padding-left: 34px;">: 089687630364 <br></span>
+            </div>
+        </h1>
+        <br/>
+        <p style="font-size: large; text-align: justify;">
+            About me :<br/>Hello, my name is Arga Rafi Inal Murtadho,
+            I come from Sidoarjo. I am an alumni of SMKN 3 Surabaya and
+            now a student of the Surabaya State Electronics Polytechnic. My daily life now
+            namely being an active student in EEPIS and self-taught
+            about developing information technology. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Cumque omnis iste aperiam nobis itaque aspernatur vitae reiciendis libero,
+              modi exercitationem iure commodi atque? Nihil reprehenderit voluptatum
+               incidunt dolorum tempora facere?</p>
+    </div>
+    <div class="kolom-2-profile">
+        <!-- <img src="assets/foto-profile.jpg" alt="" width="450"> -->
+        <h2 class="text-profile-gambar">Arga Rafi Inal Murtadho<br/>
+            <span style="font-family: 'helvetica'; font-size: 20px;">Student EEPIS</span>
+        </h2>
+    </div>
+</div>
+<!--================================= PROFILE ===========================-->
+<div style="padding: 70px;"></div>
+<!--================================= Portofolio ===========================-->
+<section>
+    <p id="portfolio" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Portofolio-</p>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row p-5" style="background-color: #88c399">
+                  <div class="col-md-1"></div>
+                  <div class="col-md-4">
+                      <img src="assets/album1/thumb1.jpeg" alt="bukit Puthuk Gragal" class="w-70" style="border-radius: 50px;">
+                  </div>
+                  <div class="col-md-6" style="background-color: #88c399;">
+                    <p class="text-port fs-5 pt-4"><span style="font-family: 'sofia'; font-size: 30px;">Album Gunung</span><br/>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium officia labore dolorem aspernatur, saepe, nulla commodi quisquam dolore dolorum quidem reprehenderit eaque tempore veritatis aut soluta quasi odit molestias?</p>
+                      <a href="#"><button class="button-port">See more</button></a>
+                    </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5" style="background-color: #88c399">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <img src="assets/album2/thumb2.jpg" alt="bukit Puthuk Gragal" class="w-70" style="border-radius: 50px;">
+                </div>
+                <div class="col-md-6" style="background-color: #88c399;">
+                  <p class="text-port fs-5 pt-4"><span style="font-family: 'sofia'; font-size: 30px;">Album Saya</span><br/>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium officia labore dolorem aspernatur, saepe, nulla commodi quisquam dolore dolorum quidem reprehenderit eaque tempore veritatis aut soluta quasi odit molestias?</p>
+                  <a href="#"><button class="button-port">See more</button></a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5" style="background-color: #88c399">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <img src="assets/album3/thumb3.jpg" alt="bukit Puthuk Gragal" class="w-70" style="border-radius: 50px;">
+                </div>
+                <div class="col-md-6" style="background-color: #88c399;">
+                  <p class="text-port fs-5 pt-4"><span style="font-family: 'sofia'; font-size: 30px;">Album Design</span><br/>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium officia labore dolorem aspernatur, saepe, nulla commodi quisquam dolore dolorum quidem reprehenderit eaque tempore veritatis aut soluta quasi odit molestias?</p>
+                    <a href="#"><button class="button-port">See more</button></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<!--================================= Portofolio ===========================-->
+
+
+
+
+
+
+
+
+
 
 
     <script>
