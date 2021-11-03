@@ -19,7 +19,6 @@ body, html {
     padding: 0;
     user-select: none;
     background: #ecfffd;
-    padding-bottom: 1000px;
 }
 .sidebar {
     position: fixed;
@@ -199,3 +198,29 @@ nav ul li a:hover {
     margin: 30px;
 }
 /*=========================contact==========================*/
+
+/*=========================Footer==========================*/
+footer {
+    /* background-image: url(assets/footer-picsay.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center; */
+    background: #00363a;
+    height: 300px;
+}
+/* .icon-contact {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 140px;
+    height: 45px;
+} */
+.icon-contact {
+    color: white;
+}
+.icon-contact:hover {
+    color: #88c399;
+    /* border-bottom: #88c399 solid 1px; */
+}
+
+/*=========================Footer==========================*/

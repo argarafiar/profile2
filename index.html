@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Profile Arga</title>
 </head>
@@ -28,68 +29,73 @@
 <!--================================= navbar ===========================-->
 
 <!--================================= HOME ===========================-->
-<h1 class="text-center" id="home" style="font-family: 'KOTM'; padding-top: 20px; color: #00363a;">Welcome to my Website</h1>
+<section>
+    <h1 class="text-center" id="home" style="font-family: 'KOTM'; padding-top: 20px; color: #00363a;">Welcome to my Website</h1>
 
-<div class="container-home shadow-lg rounded">
-    <div class="kolom-1-home">
-        <h1 style="font-size: 100px; font-family: 'Times New Roman', Times, serif; line-height: 0.5;">Hello,
-            <br/>
-            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 50px;">I'am Arga</span>
-            <br/>
-            <span style="font-family: 'cookie'; font-size: 60px;">Student | Designer</span>
-        </h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Libero labore atque officiis sunt repudiandae perspiciatis architecto 
-            aliquid rerum veritatis eligendi dolorem, reiciendis, 
-            consequatur animi laborum nulla vitae perferendis, expedita 
-            aliquam magni tempora ullam esse. Quibusdam animi laborum 
-            voluptatibus perspiciatis voluptatum!
-        </p>
+    <div class="container-home shadow-lg rounded">
+        <div class="kolom-1-home">
+            <h1 style="font-size: 100px; font-family: 'Times New Roman', Times, serif; line-height: 0.5;">Hello,
+                <br/>
+                <span style="font-family: Arial, Helvetica, sans-serif; font-size: 50px;">I'am Arga</span>
+                <br/>
+                <span style="font-family: 'cookie'; font-size: 60px;">Student | Designer</span>
+            </h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Libero labore atque officiis sunt repudiandae perspiciatis architecto 
+                aliquid rerum veritatis eligendi dolorem, reiciendis, 
+                consequatur animi laborum nulla vitae perferendis, expedita 
+                aliquam magni tempora ullam esse. Quibusdam animi laborum 
+                voluptatibus perspiciatis voluptatum!
+            </p>
+        </div>
+        <div class="kolom-2-home">
+            <img src="assets/foto-home.jpg" alt="" width="400px" style="border-radius: 50%;">
+        </div>
     </div>
-    <div class="kolom-2-home">
-        <img src="assets/foto-home.jpg" alt="" width="400px" style="border-radius: 50%;">
-    </div>
-</div>
+</section>
 <!--================================= HOME ===========================-->
 <div style="padding: 70px;"></div>
+<div id="profile"></div>
 <!--================================= PROFILE ===========================-->
-<p id="profile" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Profile-</p>
-<div class="container-profile">
-    <div class="kolom-1-profile">
-        <h1>
-            <div style="text-align: start; font-size: 27px; line-height: 1.5;">
-                NRP <span style="padding-left: 60px;">: 3121600010<br></span>
-                Class <span style="padding-left: 52px;">: D4 Informatic Technology <br></span>
-                Hobby <span style="padding-left: 30px;">: Music and Design <br></span>
-                E-mail <span style="padding-left: 35px;">: argarafiar@gmail.com <br></span>
-                Phone <span style="padding-left: 34px;">: 089687630364 <br></span>
-            </div>
-        </h1>
-        <br/>
-        <p style="font-size: large; text-align: justify;">
-            About me :<br/>Hello, my name is Arga Rafi Inal Murtadho,
-            I come from Sidoarjo. I am an alumni of SMKN 3 Surabaya and
-            now a student of the Surabaya State Electronics Polytechnic. My daily life now
-            namely being an active student in EEPIS and self-taught
-            about developing information technology. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Cumque omnis iste aperiam nobis itaque aspernatur vitae reiciendis libero,
-              modi exercitationem iure commodi atque? Nihil reprehenderit voluptatum
-               incidunt dolorum tempora facere?</p>
+<section>
+    <p data-aos="fade-up" data-aos-anchor-placement="top-center" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Profile-</p>
+    <div class="container-profile">
+        <div class="kolom-1-profile" data-aos="zoom-in-right" data-aos-delay="700" data-aos-duration="700" data-aos-anchor-placement="top-center">
+            <h1>
+                <div style="text-align: start; font-size: 27px; line-height: 1.5;">
+                    NRP <span style="padding-left: 60px;">: 3121600010<br></span>
+                    Class <span style="padding-left: 52px;">: D4 Informatic Technology <br></span>
+                    Hobby <span style="padding-left: 30px;">: Music and Design <br></span>
+                    E-mail <span style="padding-left: 35px;">: argarafiar@gmail.com <br></span>
+                    Phone <span style="padding-left: 34px;">: 089687630364 <br></span>
+                </div>
+            </h1>
+            <br/>
+            <p style="font-size: large; text-align: justify;">
+                About me :<br/>Hello, my name is Arga Rafi Inal Murtadho,
+                I come from Sidoarjo. I am an alumni of SMKN 3 Surabaya and
+                now a student of the Surabaya State Electronics Polytechnic. My daily life now
+                namely being an active student in EEPIS and self-taught
+                about developing information technology. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Cumque omnis iste aperiam nobis itaque aspernatur vitae reiciendis libero,
+                modi exercitationem iure commodi atque? Nihil reprehenderit voluptatum
+                incidunt dolorum tempora facere?</p>
+        </div>
+        <div class="kolom-2-profile" data-aos="zoom-in-left" data-aos-duration="700" data-aos-anchor-placement="top-center">
+            <h2 class="text-profile-gambar" data-aos="fade-up" data-aos-delay="1400" data-aos-duration="700" data-aos-anchor-placement="top-center">Arga Rafi Inal Murtadho<br/>
+                <span style="font-family: 'helvetica'; font-size: 20px;">Student EEPIS</span>
+            </h2>
+        </div>
     </div>
-    <div class="kolom-2-profile">
-        <!-- <img src="assets/foto-profile.jpg" alt="" width="450"> -->
-        <h2 class="text-profile-gambar">Arga Rafi Inal Murtadho<br/>
-            <span style="font-family: 'helvetica'; font-size: 20px;">Student EEPIS</span>
-        </h2>
-    </div>
-</div>
+</section>
 <!--================================= PROFILE ===========================-->
 <div style="padding: 70px;"></div>
+<div id="portfolio" ></div>
 <!--================================= Portofolio ===========================-->
 <section>
-    <p id="portfolio" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Portofolio-</p>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <p data-aos="fade-up" data-aos-anchor-placement="top-center" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Portofolio-</p>
+    <div data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="top-center" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
               <div class="row p-5" style="background-color: #88c399">
@@ -143,12 +149,13 @@
 </section>
 <!--================================= Portofolio ===========================-->
 <div style="padding: 100px;"></div>
+<div id="project"></div>
 <!--================================= Project ===========================-->
 <section>
-    <p id="project" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Project-</p>
+    <p data-aos="fade-up" data-aos-anchor-placement="top-center" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Project-</p>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                 <div class="card shadow-lg" style="margin: 1rem;">
                     <img src="assets/thumb-card1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -158,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="500" data-aos-duration="1000">
                 <div class="card shadow-lg" style="margin: 1rem;">
                     <img src="assets/thumb-card-null.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -168,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-delay="1000" data-aos-duration="1000">
                 <div class="card shadow-lg" style="margin: 1rem;">
                     <img src="assets/thumb-card-null.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -183,54 +190,85 @@
 </section>
 <!--================================= Project ===========================-->
 <div style="padding: 100px;"></div>
+<div id="contact"></div>
 <!--================================= Contact ===========================-->
 <section>
-    <p id="contact" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Contact-</p>
-    <div class="container-contact shadow-lg rounded">
+    <p data-aos="fade-up" data-aos-anchor-placement="top-center" style="font-family: 'theblack'; font-size: 50px; color: #00363a; text-align: center;">-Contact-</p>
+    <div class="container-contact shadow-lg rounded" data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="700">
         <div class="kolom-1-contact">
-            <div class="icon">
+            <div class="icon" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
                 <img src="assets/maps.png" alt="" style="width: 30px; height: 30px; margin: 20px 24px 0px 6px;">
                 <p><span style="font-weight: bold;">Address<br/></span>
                 Perum Citra Amanda Garden Blok P-2328<br/>
                 Sumokali,Candi,Sidoarjo.</p>
             </div>
-            <div class="icon">
+            <div class="icon" data-aos="fade-right" data-aos-delay="600" data-aos-duration="500">
                 <img src="assets/telepon.png" alt="" style="width: 30px; height: 30px; margin: 10px 24px 0px 6px;">
                 <p><span style="font-weight: bold;">Number<br/></span>
                 +62 896 8763 0364</p>
             </div>
-            <div class="icon">
+            <div class="icon" data-aos="fade-right" data-aos-delay="700" data-aos-duration="500">
                 <img src="assets/email.png" alt="" style="width: 40px; height: 30px; margin-right: 20px; margin-top: 10px;">
                 <p><span style="font-weight: bold;">E-mail<br/></span>
                 argarafiar@gmail.com</p>
             </div>
             <hr>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, accusamus possimus! Perferendis?</p>
+            <p data-aos="fade-right" data-aos-delay="700" data-aos-duration="500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, accusamus possimus! Perferendis?</p>
         </div>
         <div class="kolom-2-contact">
             <form style="padding: 5px;">
-                <div class="mb-3">
+                <div class="mb-3" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="500">
                   <label for="exampleInputEmail1" class="form-label">Name</label>
                   <input style="background: #ebfffb;" type="email" class="form-control contact-us" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3" data-aos="fade-left" data-aos-delay="1100" data-aos-duration="500">
                   <label for="exampleInputPassword1" class="form-label">E-mail</label>
                   <input style="background: #ebfffb;" type="email" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div class="mb-3">
-                    <!-- <label for="exampleInputPassword1" class="form-label">Phone</label> -->
+                <div class="mb-3" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="500">
                     <label class="form-label">Massage</label>
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; background: #ebfffb;"></textarea>
-                        <!-- <label for="floatingTextarea2">Comments</label> -->
                       </div>
                 </div>
-                <button type="submit" class="btn btn-project" style="float: right;">Submit</button>
+                <button type="submit" class="btn btn-project" style="float: right;" data-aos="fade-left" data-aos-delay="1200" data-aos-anchor-placement="top-bottom" data-aos-duration="500">Submit</button>
             </form>
         </div>
     </div>
 </section>
 <!--================================= Contact ===========================-->
+<div style="padding: 50px;"></div>
+<!--================================= Footer ===========================-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-white">
+                <h1 style="font-family: 'cookie'; font-size: 60px; padding-top: 20px;">-Mira-</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vel eos architecto delectus facere ex beatae eius facilis itaque! Quos iste fuga eligendi dolor nam.</p>
+                <hr>
+                <a target="_blank" href="https://www.instagram.com/argarafi_ar/" class="icon-contact" style="text-decoration: none; padding-bottom: 5px;">
+                    <i class="fab fa-instagram fa-2x fs-3"><span class="fs-5"></span></i>
+                </a> 
+                <a target="_blank" href="https://www.linkedin.com/in/arga-rafi-0376bb21a/" class="icon-contact" style="text-decoration: none; margin-left: 20px; padding-bottom: 5px;">
+                    <i class="fab fa-linkedin fa-2x fs-3"><span class="fs-5"></span></i>
+                </a>
+                <a target="_blank" href="https://github.com/argarafiar" class="icon-contact" style="text-decoration: none; margin-left: 20px; padding-bottom: 5px;">
+                    <i class="fab fa-github fa-2x fs-3"><span class="fs-5"></span></i>
+                </a>
+                <a target="_blank" href="https://twitter.com/ArgaRafiAR1" class="icon-contact" style="text-decoration: none; margin-left: 20px; padding-bottom: 5px;">
+                    <i class="fab fa-twitter fa-2x fs-3"><span class="fs-5"></span></i>
+                </a>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</footer>
+<!--================================= Footer ===========================-->
 
 
 
@@ -239,13 +277,18 @@
 
 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
-    <script>
-        $('.bttn').click(function(){
-            $(this).toggleClass("click");
-            $('.sidebar').toggleClass("show");
-        });
-    </script>
+<script>
+    $('.bttn').click(function(){
+        $(this).toggleClass("click");
+        $('.sidebar').toggleClass("show");
+    });
+</script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
