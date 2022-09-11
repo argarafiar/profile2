@@ -136,9 +136,10 @@ nav ul li a:hover {
     text-align: center;
     font-family: 'sofia';
     padding-top: 400px;
+    padding-bottom: 40px;
     /* padding-right: 100px; */
     color: #ebfffb; 
-     line-height: 0.7;
+    line-height: 0.7;
 }
 /*=========================Profile==========================*/
 
